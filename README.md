@@ -14,7 +14,7 @@ Project is deployed at: https://openmodus.com/sensei
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm i` to install the dependencies and then run `ng serve` to start the local dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
