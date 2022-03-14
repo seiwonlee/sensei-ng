@@ -6,6 +6,8 @@ Sensei is an Angular template that aims to help get your application development
 ![alt text](https://openmodus.com/sensei/sensei-preview-1.jpg "Sensei")
 ![alt text](https://openmodus.com/sensei/sensei-preview-2.jpg "Sensei")
 
+Sensei is a responsive template with the Light and Dark themes. More page templates will be added in future versions.
+
 ## Live Demo
 
 Project is deployed at: https://openmodus.com/sensei
