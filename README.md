@@ -1,7 +1,7 @@
 # ExampleProject
 
 Angular comes with a bit of a higher learning curve than other libraries like React or Vue since it is a full-fledged framework to develop enterprise-grade web or mobile applications.
-Sensei is an Angular template to aims to help get your application development journey on its way quickly.
+Sensei is an Angular template that aims to help get your application development journey on its way quickly.
 
 ![alt text](https://openmodus.com/sensei/sensei-preview-1.jpg "Sensei")
 ![alt text](https://openmodus.com/sensei/sensei-preview-2.jpg "Sensei")
