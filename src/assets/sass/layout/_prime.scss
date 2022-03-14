@@ -1,0 +1,191 @@
+.p-component{
+    font-size:0.8rem;
+}
+.p-inputswitch-slider{
+    box-shadow: none !important;
+}
+.p-menu{
+    background:transparent;
+    border:0px;
+    .p-submenu-header {
+        background: transparent;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+    }
+}
+.p-dropdown {
+    border: 1px solid #ced4da66;
+}
+.p-dropdown-panel {
+    background: var(--ss-topbar-overlay);
+    .p-dropdown-items .p-dropdown-item {
+        color: var(--ss-font);
+    }
+}
+.p-inputtext{
+    border-width: 1px !important;
+    border-style:solid !important;
+    border-color: var(--ss-font-opposite);
+    border-radius:5px;
+
+    &:enabled:focus {
+        box-shadow: none;
+        border:1px solid #2196F3;
+    }
+}
+.p-input-icon-left > .p-inputtext {
+    padding-left: 2rem !important;
+}
+
+.p-orderlist{
+    height:100%;
+
+    .p-orderlist-list-container{
+        height:100%;
+    }
+    .p-orderlist-filter-container{
+        border:0;
+        padding:1rem 1rem 0;
+    }
+    .p-orderlist-list{
+        background:transparent;
+        border:0;
+        height:calc(100% - 50px);
+        .p-orderlist-item{
+            border-bottom: 3px solid transparent;
+            border-top: 1px solid #ababab33;
+            transition:all 0.1s;
+            padding-right: 30px;
+            color:var(--ss-font);
+
+            &:focus{
+                box-shadow: none
+            }
+            &:hover{
+                border-bottom: 3px solid #ababab33 !important;
+                border-top: 1px solid #ababab33 !important;
+                box-shadow: 0px 3px 7px #00000022 !important;
+            }
+        }
+    }
+    .p-orderlist-list:not(.cdk-drop-list-dragging) .p-orderlist-item:not(.p-highlight):hover {
+        background:transparent;
+        color:var(--ss-font);
+
+    }
+}
+.cdk-drag-placeholder{
+    background:red !important;
+}
+.p-orderlist-controls{
+    display:none !important;
+}
+.p-badge {
+    font-size: 0.75rem;
+    font-weight: 400;
+    min-width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem !important;
+}
+.p-badge-dot {
+    width: 0.5rem !important;
+    min-width: 0.5rem;
+    height: 0.5rem !important;
+    border-radius: 50%;
+    padding: 0;
+}
+.p-overlay-badge .p-badge {
+    right: -2px;
+    transform: scale(0.8) translate(50%,-50%);
+    font-weight: 400;
+}
+.p-rating .p-rating-icon {
+    color: var(--ss-font);
+}
+.p-inputtext{
+    color:var(--ss-font);
+    background: var(--ss-card);
+}
+p-inputSwitch{
+    transform: scale(0.7) translate(0px, 2px);
+}
+p-dropdown{
+    .p-dropdown-label,
+    .p-dropdown-trigger-icon,
+    .p-dropdown-item {
+        font-size: 0.8rem;
+    }
+    .p-dropdown{
+        border-radius: 5px;
+        background:var(--ss-font-opposite);
+        color:var(--ss-font)
+    }
+    .p-dropdown-label {
+        border: 0px !important;
+    }
+}
+.p-inputtext {
+    padding:0.5rem;
+}
+.p-button:focus, .p-link:focus, .p-focus{
+    box-shadow:none !important;
+}
+.p-datatable {
+    font-size: 0.9em;
+    .p-datatable-tbody > tr > td {
+        text-align: left;
+        border: 1px solid var(--ss-black);
+        border-width: 0 0 1px 0;
+        padding: 0.4rem 1rem;
+    }
+    .p-datatable-thead > tr{
+        box-shadow: 0px 0px 8px #00000022;
+        &> th {
+            padding: 0.4rem 1rem;
+            background:transparent;
+            color:var(--ss-font);
+            border: 1px solid var(--ss-black);
+            border-width: 0 0 1px 0;
+            opacity:0.7;
+        }
+    } 
+    .p-paginator-bottom {
+        border-width: 0;
+    }
+    .p-datatable-tbody > tr {
+        background:transparent;
+        color: var(--ss-font);
+        transition: box-shadow 0.2s;
+    }
+}
+.p-paginator{
+    background: transparent;
+    color: #6c757d;
+    border: solid #e9ecef;
+    .p-paginator-pages{
+        button{
+            font-size:0.7rem;
+        }
+        .p-paginator-page{
+            min-width: 1.5rem;
+            height: 1.5rem;
+            color: var(--ss-font)
+        }
+    }
+}
+.p-paginator .p-paginator-current,
+.p-paginator .p-paginator-last,
+.p-paginator .p-paginator-next,
+.p-paginator .p-paginator-prev,
+.p-paginator .p-paginator-first{
+    min-width: 1.5rem;
+    height: 1.5rem;
+    color:var(--ss-font);
+    opacity:0.6;
+    font-weight:300;
+}
+
+.p-rating .p-rating-icon {
+    margin-left: 0.1rem;
+    font-size: 0.65rem;
+}

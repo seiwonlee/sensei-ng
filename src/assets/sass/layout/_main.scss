@@ -1,0 +1,189 @@
+/* Add your variable customizations of layout here */
+/* lato-300 - latin-ext_latin */
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Lato Light"), local("Lato-Light"), url("../../fonts/lato-v17-latin-ext_latin-300.woff2") format("woff2");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-regular - latin-ext_latin */
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Lato"), local("Lato-Regular"), url("../../fonts/lato-v17-latin-ext_latin-regular.woff2") format("woff2");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-700 - latin-ext_latin */
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Lato Bold"), local("Lato-Bold"), url("../../fonts/lato-v17-latin-ext_latin-700.woff2") format("woff2");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+router-outlet.anim + * {
+    display: block;  /* Change display inline to block */
+    animation: fadeInZoom 0.6s;
+    // height:100%;
+}
+app-todo{
+  height: 100%;
+}
+  
+html {
+    height: 100%;
+}
+
+body {
+    // font-family: Arial;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: $fontSize;
+    color: var(--ss-font);
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    background-image: var(--ss-body);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    @include box-sizing(border-box);
+}
+
+a {
+    color: var(--ss-text-secondary);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+ul{list-style: none;padding:0}
+.product-badge{
+    padding: 0.15rem 0.25rem;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    &.status-instock {
+        background: #C8E6C9;
+        color: #256029;
+    }
+    &.status-lowstock {
+        background: #FEEDAF;
+        color: #8a5340;
+    }
+    &.status-outofstock {
+        background: #FFCDD2;
+        color: #c63737;
+    }
+}
+.up{
+    color:#73cc9b
+}
+.down{
+    color:#cc7373
+}
+
+.p-input-icon-left, .p-input-icon-right {
+    position: relative;
+    display: inline-block;
+}
+.p-fluid .p-input-icon-left, .p-fluid .p-input-icon-right {
+    display: block;
+    width: 100%;
+}
+.p-input-icon-right > i:last-of-type {
+    right: 0.75rem;
+    color: #708da9;
+}
+
+/* Utils */
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  .grid>div{ /*cards container*/
+      padding:0.75rem;
+  }
+  
+  .card {
+    background: var(--ss-card);
+    padding: 1.5rem 1rem;
+    margin-bottom: 16px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1), 0px 24px 36px rgba(0, 0, 0, 0.04);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+  .card:last-child {
+    margin-bottom: 0;
+  }
+  .card .card-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .card .card-subtitle {
+    color: #7B8794;
+    font-weight: 600;
+    margin: -1rem 0 1rem 0;
+  }
+  
+  .p-toast.p-toast-top-right, .p-toast.p-toast-top-left, .p-toast.p-toast-top-center {
+    top: 70px;
+  }
+  
+  .h-divider-left{
+      border-left:1px solid #00000022 !important;
+  }
+  @keyframes fadeInZoom {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -20px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes fadeOutUp {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+  }
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  }
+  
+  .fadeOutUp {
+    -webkit-animation-name: fadeOutUp;
+    animation-name: fadeOutUp;
+  }

@@ -1,0 +1,56 @@
+:root{
+    .dark{
+        --ss-black:#00000033;
+        --ss-body:linear-gradient(147.38deg, #435268 0%, #414f65 100%);
+        --ss-layout:#21262c57;
+        --ss-card:linear-gradient(147.38deg, #424e61 0%, #374150 100%);
+        --ss-menu-header:#ffffff;
+        --ss-menu-item: #2f3541;
+        --ss-menu-item-hover: #2f35417d;
+        --ss-font:#ffffff;
+        --ss-font-opposite:#3e4c59;
+        --ss-layout-top:linear-gradient(90deg, #414f65, #91bddf4a);
+        --ss-layout-side:linear-gradient(270deg, #435268, #4c5e76);
+        --ss-layout-bottom:#414f65;
+        --ss-button-hover:#e9ecef;
+        --ss-widget1-chart:#66aed8;
+        --ss-widget2-chart:#f8c360;
+        --ss-widget3-chart:#42e2a5;
+        --ss-widget4-chart:#9962ff;
+
+        --ss-widget-color1:#1992d4;
+        --ss-widget-color2:#ffdb4b;
+        --ss-widget-color3:#42e2a5;
+        --ss-widget-color4:#827aec;
+        --ss-widget-color5:#e04b64;
+        --ss-topbar-overlay:#2d3743;
+        --ss-text-secondary:#b4c2cf;
+    }
+    .light{
+        --ss-black:#afafaf33;
+        --ss-body:linear-gradient(147.38deg, #FFFFFF 0%, #86a8c026 100%);
+        --ss-layout:#F5F7FA;
+        --ss-card:#ffffff;
+        --ss-menu-header:#495057;
+        --ss-menu-item: #edf5fa;
+        --ss-menu-item-hover: #e9ecef;
+        --ss-font:#3e4c59;
+        --ss-font-opposite:#ffffff;
+        --ss-layout-top:linear-gradient(45deg, white, #91bddf4a);
+        --ss-layout-side:linear-gradient(155deg, white, #91bddf00);
+        --ss-layout-bottom:linear-gradient(155deg, #91bddf4a, #91bddf4a);;
+        --ss-button-hover:#e9ecef;
+        --ss-widget1-chart:#66aed8;
+        --ss-widget2-chart:#f8c360;
+        --ss-widget3-chart:#42e2a5;
+        --ss-widget4-chart:#7f4be0;
+
+        --ss-widget-color1:#1992d4;
+        --ss-widget-color2:#ffdb4b;
+        --ss-widget-color3:#42e2a5;
+        --ss-widget-color4:#827aec;
+        --ss-widget-color5:#e04b64;
+        --ss-topbar-overlay:#f5f7fa;
+        --ss-text-secondary:#657b90;
+    }
+  }

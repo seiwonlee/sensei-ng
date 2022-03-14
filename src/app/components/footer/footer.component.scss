@@ -1,0 +1,25 @@
+.layout-footer {
+    // background:var(--ss-layout-bottom);
+    padding: 1.75rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer-left {
+        color: #3e4c59;
+        display: flex;
+        align-items: center;
+        img {
+            width: 35px;
+            border-radius:50%;
+            overflow:hidden;
+            border:2px solid var(--ss-font);
+        }
+        .app-name {
+            margin-left: 0.4rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+            color:var(--ss-font);
+        }
+    }
+}
